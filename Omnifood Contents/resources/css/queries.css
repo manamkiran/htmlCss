@@ -1,0 +1,72 @@
+/* Larger Tablets and Small Laptops: screen width 1024 - 1200 px DO remember Our width is 1140*/
+@media only screen and (max-width: 1200px) {
+  .hero-text-box {
+    width: 100%;
+    padding: 0 2%;
+  }
+
+  .row {
+    padding: 0 2%;
+  }
+}
+
+/* Tablets : screen width 768 - 1023 px*/
+@media only screen and (max-width: 1023px) {
+  body {
+    font-size: 18px;
+  }
+  section {
+    padding: 60px 0;
+  }
+  .long-copy {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .steps-box {
+    margin-top: 10px;
+  }
+
+  .steps-box:last-child {
+    margin-top: 10px;
+  }
+
+  .works-step {
+    margin-bottom: 40px;
+  }
+
+  .works-step:last-of-type {
+    margin-bottom: 60px;
+  }
+
+  .btn-app img {
+    height: 40px;
+  }
+
+  .icon-small {
+    width: 17px;
+    margin-right: 10px;
+  }
+
+  .city-feature{
+      font-size: 90%;
+  }
+
+  .plan-box {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .app-screen {
+    width: 50%;
+  }
+}
+
+/* Larger Phones : screen width 481px - 767 px*/
+@media only screen and (max-width: 767px) {
+}
+
+/* Small Phones : screen width 0 - 480 px*/
+@media only screen and (max-width: 480px) {
+}
