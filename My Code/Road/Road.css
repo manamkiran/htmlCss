@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sky{
+    background-color: skyblue;
+    height: 35vh;
+}
+
+.grass{
+    background-color: green;
+    height: 25vh;
+}
+
+.road{
+    background-color: rgb(19, 19, 19);
+    height: 40vh;
+    border-top: 5px solid grey;
+    border-bottom: 5px solid grey;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.divider{
+    position: absolute;
+    top: 49%;
+    width: 100%;
+    border-top: 10px dashed #fff;
+    
+}
