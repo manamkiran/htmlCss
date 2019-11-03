@@ -1,0 +1,17 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  /* font-size:10px; */
+  /* This defines what 1rem setting is */
+  font-size: 62.5%; /* 16px(Default fon't size of browser) / 10 (expected value) */
+}
+
+body {
+  box-sizing: border-box;
+}
