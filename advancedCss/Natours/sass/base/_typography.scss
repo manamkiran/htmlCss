@@ -38,13 +38,7 @@ body {
   font-weight: 700;
   display: inline-block;
 
-  background-image: linear-gradient(
-    to right,
-    $color-primary-light,
-    $color-primary-dark
-  );
-  -webkit-background-clip: text;
-  color: transparent;
+  @include gradientBackGroundText;
   transition: all 0.2s;
   letter-spacing: 0.2rem;
 

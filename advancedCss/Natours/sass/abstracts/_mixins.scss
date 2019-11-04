@@ -1,7 +1,18 @@
 @mixin clearfix {
-    &:after{
-        content: "";
-        clear: both;
-        display: table;
-    }
+  &:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+
+@mixin gradientBackGroundText {
+  display: inline-block;
+  background-image: linear-gradient(
+    to right,
+    $color-primary-light,
+    $color-primary-dark
+  );
+  -webkit-background-clip: text;
+  color: transparent;
 }
