@@ -12,14 +12,19 @@
   }
 
   &--white {
-    &:link,
-    &:visited {
-      background-color: $color-white;
-      color: $color-grey-dark;
-    }
+    background-color: $color-white;
+    color: $color-grey-dark;
 
     &::after {
       background-color: white;
+    }
+  }
+
+  &--green {
+    background-color: $color-primary;
+    color: $color-white;
+    &::after {
+      background-color: $color-primary;
     }
   }
 
@@ -66,7 +71,7 @@
     display: inline-block;
     border-bottom: 1px solid $color-primary;
     padding-bottom: 3px;
-    transition: all .2s;
+    transition: all 0.2s;
   }
 
   &:hover {
@@ -77,7 +82,7 @@
   }
 
   &::active {
-    box-shadow: 0 .5rem 1rem rgba($color-black, 0.15);
+    box-shadow: 0 0.5rem 1rem rgba($color-black, 0.15);
     transform: translateY(0);
   }
 }
