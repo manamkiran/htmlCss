@@ -16,3 +16,18 @@
   -webkit-background-clip: text;
   color: transparent;
 }
+
+@mixin centerContent {
+  @include centerContentWithGivenTopAndLeft(50%, 50%);
+}
+
+@mixin centerContentWithGivenTopAndLeft($top, $left) {
+  position: absolute;
+  top: $top;
+  left: $left;
+  transform: translate(-50%, -50%);
+}
+
+@mixin centerContentWithGivenTop($top) {
+  @include centerContentWithGivenTopAndLeft($top, 50%);
+}
