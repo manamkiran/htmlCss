@@ -1,0 +1,93 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  /* font-size:10px; */
+  /* This defines what 1rem setting is */
+  font-size: 62.5%; /* 16px(Default fon't size of browser) / 10 (expected value) */
+}
+
+body {
+  box-sizing: border-box;
+  background-image: linear-gradient(to right bottom, #fbdb89, #f48982);
+}
+
+.container {
+  width: 90%;
+  margin: 5rem auto;
+  background-color: #f9f5f3;
+  border-radius: 5px;
+}
+
+.header {
+  width: 100%;
+  height: 8rem;
+  position: relative;
+  display: inline-block;
+}
+
+.header__logo {
+  height: 100%;
+}
+
+.search_icon {
+  height: 100%;
+  display: inline-block;
+}
+
+.likes {
+  color: #f48982;
+  height: 4rem;
+  width: 4rem;
+  position: absolute;
+  top: 4rem;
+  right: 10rem;
+}
+
+.likes__icon{
+    width:100%;
+    height: 4rem;
+    color: coral;
+}
+
+.search__icon{
+    fill: coral;
+}
+
+.results {
+  width: 25%;
+  height: 80vh;
+  background-color: #fff;
+  display: inline-block;
+}
+
+.recipe {
+  width: 50%;
+  height: 80vh;
+  display: inline-block;
+}
+
+.shopping {
+  width: 25%;
+  height: 80vh;
+  background-color: #fff;
+  display: inline-block;    
+}
+
+form {
+  display: inline;
+}
+
+.search__btn {
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .search__icon {
+    height: 100%;
+  }
